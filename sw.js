@@ -26,6 +26,6 @@ self.addEventListener('fetch', function(e) {
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('/sw.js')
+           .register('Test-PWA/sw.js')
            .then(function() { console.log("Service Worker Registered"); });
 }
