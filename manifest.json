@@ -1,4 +1,5 @@
 {
+  "start_url": "/index.html",
   "name": "Hola Mundo",
   "short_name": "Hola",
   "icons": [{
@@ -27,7 +28,6 @@
       "type": "image/png"
   }],
   "lang": "en-US",
-  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "yellow"
