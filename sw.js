@@ -23,9 +23,3 @@ self.addEventListener('fetch', function(e) {
     })
   );
 });
-
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker
-           .register('Test-PWA/sw.js')
-           .then(function() { console.log("Service Worker Registered"); });
-}
